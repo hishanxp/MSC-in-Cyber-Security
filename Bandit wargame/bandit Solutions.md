@@ -25,6 +25,7 @@ pIwrPrtPN36QITSp3EQaw936yaFoFgAB-
 
 #Level 4 → Level5
 #### file ./*
+
 #### cat ./-file07
 koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 ##
@@ -39,13 +40,30 @@ DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ##
 
 #Level 6 → Level7
-#### 
-#### 
+####  find / -type f -user bandit7 -group bandit6 -size 33c
+#### cat /var/lib/dpkg/info/bandit7.password 
 
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+#Level 7 → Level8
+#### cat data.txt |grep milliont
+cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ##
 
-#Level 5 → Level6
-#### 
+#Level 8 → Level9
+####sort data.txt |uniq -u
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+cat 
+#Level 9 → Level10
+####strings data.txt | grep =
+truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+
+
+#Level 10 → Level11
+#### cat data.txt |base64 --decode
+IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+#Level 11 → Level12
 #### 
 
-##
